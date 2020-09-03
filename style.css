@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+header{
+background: palevioletred;
+margin: 0;
+}
+
+main{
+    background: white;
+    margin: 0 1 1 1;
+    display: inline;
+    
+
+}
+#logo{
+   width: 300px;
+   height: 250px;
+    background-size: contain;  
+    background-image: url("https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/118622301_2650830445139962_492023482676540530_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=FkutMy6W8VsAX8mkBmZ&_nc_ht=scontent-hbe1-1.xx&oh=dae173ba729ddddf37ad4844650e80b5&oe=5F75D6F7");
+}
+pre{
+    background-color: rgb(190, 45, 130);
+    text-align: center;
+    font-size: 60;
+    position: absolute;
+    padding: 0 20 0 20;
+  
+}
