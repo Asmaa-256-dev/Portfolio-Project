@@ -70,10 +70,9 @@
               }
          
            #Girl {
-              border-radius: 100%;
+              border-radius: 50%;
               display: inline;
               margin: 0px 0px 20px 10px;
-              width: 300px;
               }
           
           #Text{
