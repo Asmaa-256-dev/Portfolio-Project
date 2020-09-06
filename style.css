@@ -1,31 +1,104 @@
-body{
-    margin:0;
-    padding: 0;
-}
+/*--------------small devices-----------*/
+@media only screen and (max-width: 767px) {
+   *{
+  margin: 0 auto;
+   }
+    body{
+    background-image: url("https://ezzaii.com/wp-content/uploads/2014/08/S5bKt4s.jpg");
+    width: 100%;
+    height: 100%;
+   font-size: 50;
+    }
 
-header{
-background: palevioletred;
-margin: 0;
-}
-
-main{
-    background: white;
-    margin: 0 1 1 1;
-    display: inline;
+    #Title {
+        padding:0px 80px 0px 20px;
+        color : rgb(216, 224, 156);
+        text-align: center;
+        position: relative ;
+        font-size: 2rem;
+        margin-top: 30px;
+        }
+   
+     #Girl {
+        border-radius: 50%;
+        display: inline;
+        margin: 0px 0px 20px 10px;
+        }
     
+    #Text{
+    font-size: 20px;
+    margin: 0px 10px 50px 50px ;
+    text-align: center;
+    color: rgb(206, 201, 138);
+    position: relative;
+    display: inline-block;
+    }
+    
+    #Foot_Text{
+   position: relative;
+   border:solid rgb(216, 224, 156) 1vw;
+   background: rgb(199, 199, 245);
+   text-align: center;
+   display: inline;
+    }
+   #socialmedia {
+       display: inline-block
+   }
+}
+/*--------------tablet devices-----------*/
+@media only screen and (min-width: 768px) {
+    *{
+        margin: 0 auto;
+     }
+          body{
+          background-image: url("https://ezzaii.com/wp-content/uploads/2014/08/S5bKt4s.jpg");
+          width: 100%;
+          height: 100%;
+         font-size: 50;
+          }
+      
+          #Title {
+
+              padding:0px 80px 0px 20px;
+              color : rgb(216, 224, 156);
+              text-align: center;
+              position: relative ;
+              font-size: 2rem;
+              margin-top: 30px;
+              }
+         
+           #Girl {
+              border-radius: 50%;
+              display: inline;
+              margin: 0px 0px 20px 10px;
+              }
+          
+          #Text{
+          font-size: 20px;
+          margin: 0px 10px 50px 50px ;
+          text-align: center;
+          color: rgb(206, 201, 138);
+          position: relative;
+          display: inline-block;
+          }
+          
+          #Foot_Text{
+         position: relative;
+         border:solid rgb(216, 224, 156) 1vw;
+         background: rgb(199, 199, 245);
+         text-align: center;
+         display: inline;
+          }
+         #socialmedia {
+             display: inline-block
+         }
+
+
+
+
 
 }
-#logo{
-   width: 300px;
-   height: 250px;
-    background-size: contain;  
-    background-image: url("https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/118622301_2650830445139962_492023482676540530_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=FkutMy6W8VsAX8mkBmZ&_nc_ht=scontent-hbe1-1.xx&oh=dae173ba729ddddf37ad4844650e80b5&oe=5F75D6F7");
-}
-pre{
-    background-color: rgb(190, 45, 130);
-    text-align: center;
-    font-size: 60;
-    position: absolute;
-    padding: 0 20 0 20;
-  
+/*--------------pc devices-----------*/
+@media only screen and (min-width: 1000px) {
+
 }
