@@ -18,7 +18,7 @@
        grid-template-areas: "head head head head"
                             "main  main main main"
                             "aside aside aside aside"
-                            "foot  foot  foot  foot"
+                            "nav  nav   nav nav"
                                          
       }
       header {
@@ -31,8 +31,8 @@
       #right_side {
         grid-area: aside;
       }
-      #Main-Footer {
-        grid-area: foot;
+      #nav_list {
+        grid-area: nav;
       }
       header h1 {
         font-size: 50px;
@@ -46,13 +46,17 @@
       
       }
      #Main-Text{
-       color: rgb(68, 142, 177);
+       color: rgb(11, 9, 90);
        font-size: 1.5rem;
      }
      #side-Text {
        color: rgb(209, 211, 96);
        font-size: 30px;
      }
+     #nav_list li {
+     list-style: none;
+     display: inline;
+   }
       
    }
    @media only screen and (min-width: 768px) {
@@ -66,13 +70,13 @@
       width: 100%;
       height: 100%;
      display:grid;
-     grid-template-rows:2fr 9fr 2fr 1fr ;
+     grid-template-rows:2fr 9fr 3fr 1fr ;
      grid-template-columns: 1fr 2fr 1fr;
      gap : 10px;
      grid-template-areas: "head head head head"
                           "main  main main main"
                           "aside aside aside aside"
-                          "foot  foot  foot  foot"
+                          "nav  nav  nav  nav"
                                        
     }
     header {
@@ -85,8 +89,8 @@
     #right_side {
       grid-area: aside;
     }
-    #Main-Footer {
-      grid-area: foot;
+    #nav_list {
+      grid-area: nav;
     }
     header h1 {
       font-size: 50px;
@@ -100,19 +104,18 @@
    
     }
    #Main-Text{
-     color: rgb(68, 142, 177);
+     color: rgb(11, 3, 56);
      font-size: 2rem;
    }
    #side-Text {
      color: rgb(209, 211, 96);
      font-size: 2.5rem;
    }
-
-
-
-
-
+   #nav_list li {
+     list-style: none;
+     display: inline;
    }
+}
  @media only screen and (min-width: 1000px) {
 
 
