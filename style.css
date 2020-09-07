@@ -1,110 +1,123 @@
-/*--------------small devices-----------*/
-@media only screen and (max-width: 767px) {
-   *{
+*{
   margin: 0 auto;
-   }
+ text-align: center;
+}   
+  @media only screen and (max-width: 767px) {
     body{
-    background-image: url("https://ezzaii.com/wp-content/uploads/2014/08/S5bKt4s.jpg");
-    width: 100%;
-    height: 100%;
-   font-size: 50;
-    }
-
-    #Title {
-        padding:0px 80px 0px 20px;
-        color : rgb(216, 224, 156);
-        text-align: center;
-        position: relative ;
-        font-size: 2rem;
-        margin-top: 30px;
-        }
-   
-     #Girl {
+      background-image: url("https://ezzaii.com/wp-content/uploads/2014/08/S5bKt4s.jpg");
+      background-size: cover;
+      font-size: 40px;
+      }
+    #main_container {
+        width: 100%;
+        height: 100%;
+       display:grid;
+       grid-template-rows:1.5fr 6fr 2fr 0.5fr ;
+       grid-template-columns: 1fr 2fr 1fr;
+       gap : 10px;
+       grid-template-areas: "head head head head"
+                            "main  main main main"
+                            "aside aside aside aside"
+                            "foot  foot  foot  foot"
+                                         
+      }
+      header {
+          grid-area: head;
+          font-size:20px;
+      }
+      #main_sec {
+        grid-area : main;
+      }
+      #right_side {
+        grid-area: aside;
+      }
+      #Main-Footer {
+        grid-area: foot;
+      }
+      header h1 {
+        font-size: 50px;
+        color: rgb(209, 231, 107);
+      }
+      #Girl {
         border-radius: 50%;
-        display: inline;
-        margin: 0px 0px 20px 10px;
-        }
-    
-    #Text{
-    font-size: 20px;
-    margin: 0px 10px 50px 50px ;
-    text-align: center;
-    color: rgb(206, 201, 138);
-    position: relative;
-    display: inline-block;
-    }
-    
-    #Foot_Text{
-   position: relative;
-   border:solid rgb(216, 224, 156) 1vw;
-   background: rgb(199, 199, 245);
-   text-align: center;
-   display: inline;
-    }
-   #socialmedia {
-       display: inline;
-       font-size: 1.5rem;
-       list-style: none;
-   }
-}
-/*--------------tablet devices-----------*/
-@media only screen and (min-width: 768px) {
-    *{
-        margin: 0 auto;
-     }
-          body{
-          background-image: url("https://ezzaii.com/wp-content/uploads/2014/08/S5bKt4s.jpg");
-          width: 100%;
-          height: 100%;
-         font-size: 100;
-          }
+        background-size: contain;
+        width: 50%;
+        height:50%;
       
-          #Title {
+      }
+     #Main-Text{
+       color: rgb(68, 142, 177);
+       font-size: 1.5rem;
+     }
+     #side-Text {
+       color: rgb(209, 211, 96);
+       font-size: 30px;
+     }
+      
+   }
+   @media only screen and (min-width: 768px) {
+    body{
+      background-image: url("https://ezzaii.com/wp-content/uploads/2014/08/S5bKt4s.jpg");
+      background-size: cover;
+      font-size: 100px;
+      }
 
-              padding:0px 80px 0px 20px;
-              color : rgb(216, 224, 156);
-              text-align: center;
-              position: relative ;
-              font-size: 4.5rem;
-              margin-top: 30px;
-              }
-         
-           #Girl {
-              border-radius: 50%;
-              display: inline;
-              margin: 0px 0px 20px 10px;
-              }
-          
-          #Text{
-          font-size: 30px;
-          margin: 0px 10px 50px 50px ;
-          text-align: center;
-          color: rgb(206, 201, 138);
-          position: relative;
-          display: inline-block;
-          }
-          
-          #Foot_Text{
-         position: relative;
-         border:solid rgb(216, 224, 156) 1vw;
-         background: rgb(199, 199, 245);
-         text-align: center;
-         display: inline-block;
-         font-size: 35px;
-          }
-         #socialmedia {
-             display: inline-block;
-             font-size: 2.5rem;
-             list-style: none;
-            
-         }
+    #main_container {
+      width: 100%;
+      height: 100%;
+     display:grid;
+     grid-template-rows:2fr 9fr 2fr 1fr ;
+     grid-template-columns: 1fr 2fr 1fr;
+     gap : 10px;
+     grid-template-areas: "head head head head"
+                          "main  main main main"
+                          "aside aside aside aside"
+                          "foot  foot  foot  foot"
+                                       
+    }
+    header {
+        grid-area: head;
+        font-size:20px;
+    }
+    #main_sec {
+      grid-area : main;
+    }
+    #right_side {
+      grid-area: aside;
+    }
+    #Main-Footer {
+      grid-area: foot;
+    }
+    header h1 {
+      font-size: 50px;
+      color: rgb(209, 231, 107);
+    }
+    #Girl {
+      border-radius: 50%;
+      background-size: contain;
+     widows: 60%;
+     height: 60%;
+   
+    }
+   #Main-Text{
+     color: rgb(68, 142, 177);
+     font-size: 2rem;
+   }
+   #side-Text {
+     color: rgb(209, 211, 96);
+     font-size: 2.5rem;
+   }
 
 
 
 
 
-}
-/*--------------pc devices-----------*/
-@media only screen and (min-width: 1000px) {
+   }
+ @media only screen and (min-width: 1000px) {
 
-}
+
+
+ }
+
+
+
